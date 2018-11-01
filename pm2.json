@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "exec_mode": "cluster",
+      "instances": 1,
+      "script": "./build/server.js",
+      "name": "type-node",
+      "interpreter": "node",
+      "env": {
+        "NODE_ENV": "dev"
+      }
+    }
+  ]
+}
